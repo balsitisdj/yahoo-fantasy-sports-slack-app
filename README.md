@@ -46,3 +46,5 @@ $ git clone https://github.com/balsitisdj/yahoo-fantasy-football-slack-app.git
 $ cd yahoo-fantasy-football-slack-app
 
 $ python slack-bot.py
+
+*I'm using python3.5...should work with python2 but there could be some slight issues
