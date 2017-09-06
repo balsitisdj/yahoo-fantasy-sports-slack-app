@@ -1,0 +1,1 @@
+* * * * * /home/ec2-user/yahoo-fantasy-football-slack-app/resources/run-bot-script.sh > /home/ec2-user/log/slack-cron.log 2>&1
