@@ -1,4 +1,4 @@
-# yahoo-fantasy-football-slack-app
+# yahoo-fantasy-sports-slack-app
 
 slack-bot.py uses mYQL which is a wrapper for Yahoo!'s YQL API which queries their databases for data such as fantasy football transactions.
 
