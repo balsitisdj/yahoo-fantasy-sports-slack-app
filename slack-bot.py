@@ -4,8 +4,6 @@ import myql
 import requests
 from yahoo_oauth import OAuth1
 
-def strip_emojis(string):
-        return string[:string.find('/')]
 
 def post_to_slack(message):
 	request = requests.post(slackUrl, headers={"Content-type": "application/json"}, json={"text":message})
@@ -49,11 +47,6 @@ def check_if_new_transaction(data):
 			isNew = False
 			break
 	return isNew
-
-def check_if_recent(data):
-	compareTime = currentTime - 1800
-	isRecent = float(transaction['timestamp']) > compareTime
-	return isRecent
 
 
 if __name__ == '__main__':
